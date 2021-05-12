@@ -76,7 +76,7 @@ func (client DiagnosticSettingsClient) CreateOrUpdatePreparer(ctx context.Contex
 		"resourceUri": resourceURI,
 	}
 
-	const APIVersion = "2017-05-01-preview"
+	const APIVersion = "2017-08-31"
 	queryParameters := map[string]interface{}{
 		"api-version": APIVersion,
 	}
